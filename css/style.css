@@ -1,0 +1,317 @@
+/* ==========================================================================
+Template Name: Evos - Creative Portfolio HTML Template
+Template URI: 
+Description: Evos - HTML5 Bootstrap 4 Template
+Author: dreamroadtech
+Author URI: http://www.dreamroadtech.com
+Version: 1.0
+========================================================================== */
+
+
+/* CSS Index 
+-----------------------------------
+1. Template default css
+2. Head css
+3. Home css  
+4. About css  
+5. Skill-Edu css  
+6. Experience css   
+7. Portfolio css
+8. Service css
+9. Team css
+10.Testimonial css
+11. Contact css
+12. Blog css
+13. Footer css
+     
+*/
+
+
+/* ==========================================================================
+Google Font
+========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+/*...................................
+  1. Template default css
+................................... */
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+button {
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    padding: 12px 38px;
+    border-radius: 30px;
+    border: 2px solid #5c5292;
+    background: transparent;
+    margin-left: 45px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.section-padding {
+    padding-top: 143px;
+    padding-bottom: 150px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title span {
+    color: #0084e0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.section-title h2 {
+    color: #1a105f;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+
+/*...................................
+  2. header css
+................................... */
+
+header {
+    padding: 62px 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s;
+}
+
+header .container-fluid {
+    padding: 0 200px;
+}
+
+select {
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 2px solid #5c5292;
+    background: transparent;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: 0;
+}
+
+ul li {
+    padding-left: 30px;
+}
+
+ul li a {
+    color: #fff;
+    /* position: relative; */
+}
+
+ul li a:hover {
+    color: #fff;
+}
+
+.neel {
+    background: rgb(36, 18, 106);
+    background: linear-gradient(0deg, rgba(36, 18, 106, 1) 22%, rgba(26, 16, 95, 1) 60%, rgba(29, 45, 120, 1) 100%);
+    padding: 15px 0;
+}
+
+.humburg-icon {
+    float: right;
+}
+
+
+/* ul li a::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    border-radius: 50%;
+    bottom: -5px;
+    left: 50%;
+} */
+
+.start-btn {
+    border: 2px solid transparent;
+    background: #19397e;
+    transition: .3s;
+}
+
+.start-btn:hover {
+    border: 2px solid #5c5292;
+    background: transparent;
+}
+
+
+/*...................................
+  3. home css
+................................... */
+
+.home {
+    background: url(../img/home/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.home-content {
+    padding-top: 330px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 82px;
+    line-height: 90px;
+}
+
+h1 span {
+    font-weight: 300;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 50px;
+}
+
+.vector-img {
+    position: absolute;
+    right: 180px;
+    top: 25%
+}
+
+.download-btn {
+    color: #ffffff;
+    border: 1px solid #174082;
+    border-radius: 40px;
+    text-align: left;
+    padding: 9px 38px;
+    font-size: 14px;
+    margin: 50px 30px 0 0;
+    transition: .3s;
+}
+
+.btn-active {
+    background: #19397e;
+    border: 1px solid #174082;
+}
+
+.download-btn i {
+    float: left;
+    font-size: 30px;
+    padding-right: 20px;
+    line-height: 1.5;
+    margin-left: -8px;
+}
+
+.download-btn span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn:hover {
+    background: #19397e;
+    color: #ffffff;
+    transition: .3s;
+    border: 1px solid #174082;
+}
+
+
+/*...................................
+  4. features css
+................................... */
+
+.feature-box {
+    margin-top: 50px;
+}
+
+.feature-item {
+    margin-top: 30px;
+    text-align: center;
+    padding: 36px;
+    background: #fff;
+}
+
+h3 {
+    font-size: 34px;
+    font-weight: 500;
+    color: #19397e;
+    line-height: 80px
+}
+
+p {
+    color: #859eb1;
+    padding-bottom: 20px;
+}
+
+.item-1 {
+    box-shadow: 0px 4px 17.28px 0.72px rgba(70, 191, 155, 0.1);
+}
+
+.item-2 {
+    box-shadow: 0px 4px 17.28px 0.72px rgba(255, 197, 57, 0.1);
+}
+
+.item-3 {
+    box-shadow: 0px 4px 17.28px 0.72px rgba(53, 176, 255, 0.1);
+}
+
+.item-4 {
+    box-shadow: 0px 4px 17.28px 0.72px rgba(255, 116, 116, 0.1);
+}
+
+.item-5 {
+    box-shadow: 0px 4px 19.2px 0.8px rgba(111, 41, 255, 0.1);
+}
+
+.item-6 {
+    box-shadow: 0px 4px 17.28px 0.72px rgba(8, 210, 111, 0.1);
+}
